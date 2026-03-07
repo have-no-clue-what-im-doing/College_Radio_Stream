@@ -40,17 +40,6 @@
             color: #fff;
         }
 
-        .station.inactive {
-            color: #444;
-            cursor: default;
-            border-color: #1a1a1a;
-        }
-
-        .station.inactive:hover {
-            border-color: #1a1a1a;
-            background: transparent;
-        }
-
         .player {
             margin-top: 30px;
             padding-top: 20px;
@@ -93,20 +82,16 @@
                 const container = document.getElementById('stations');
                 stations.forEach(station => {
                     const el = document.createElement('div');
-                    el.className = 'station' + (station.active ? '' : ' inactive');
+                    el.className = 'station';
                     el.textContent = station.name;
-
-                    if (station.active) {
-                        el.onclick = () => {
-                            if (activeEl) activeEl.classList.remove('active');
-                            activeEl = el;
-                            el.classList.add('active');
-                            nowPlaying.textContent = station.name;
-                            audio.src = `/api/stream/${station.id}`;
-                            audio.play();
-                        };
-                    }
-
+                    el.onclick = () => {
+                        if (activeEl) activeEl.classList.remove('active');
+                        activeEl = el;
+                        el.classList.add('active');
+                        nowPlaying.textContent = station.name;
+                        audio.src = `/api/stream/${station.id}`;
+                        audio.play();
+                    };
                     container.appendChild(el);
                 });
             });
