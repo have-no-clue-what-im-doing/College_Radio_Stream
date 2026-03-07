@@ -105,10 +105,15 @@
                             el.classList.add('active');
                             nowPlaying.textContent = station.name;
 
-                            // destroy previous hls instance
                             if (hls) hls.destroy();
 
-                            // ask backend to start ffmpeg
+                            // stop previous station's ffmpeg
+                            if (window.currentStationId) {
+                                fetch(`/api/stream/${window.currentStationId}/stop`);
+                            }
+                            window.currentStationId = station.id;
+
+                            // start new station
                             fetch(`/api/stream/${station.id}/start`)
                                 .then(res => res.json())
                                 .then(data => {

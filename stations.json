@@ -1,3 +1,1628 @@
 [
-  { "id": 1, "name": "Test Station", "url": "https://s4.radio.co/sa4dd72cde/listen" }
+  {
+    "name": "akron",
+    "url": "http://www.streamvortex.com:11300/stream?type=http&nocache=24694",
+    "active": true,
+    "id": 1
+  },
+  {
+    "name": "alabama",
+    "url": "https://das-edge13-live365-dal02.cdnstream.com/a83139",
+    "active": true,
+    "id": 2
+  },
+  {
+    "name": "alaska_anchorage",
+    "url": "https://27283.live.streamtheworld.com/KRUAFMAAC.aac",
+    "active": true,
+    "id": 3
+  },
+  {
+    "name": "alaska_fairbanks",
+    "url": "https://stream.radio.co/se776fab22/listen",
+    "active": true,
+    "id": 4
+  },
+  {
+    "name": "appalachian_state",
+    "url": "https://prod-54-162-171-6.amperwave.net/wasu-wasuaac-hlsc1.m3u8",
+    "active": true,
+    "id": 5
+  },
+  {
+    "name": "arizona",
+    "url": "https://ice42.securenetsystems.net/KAMP",
+    "active": true,
+    "id": 6
+  },
+  {
+    "name": "arizona_state",
+    "url": "https://radio.shoutcheap.com/proxy/function/stream",
+    "active": true,
+    "id": 7
+  },
+  {
+    "name": "arkansas",
+    "url": "https://listen.kxua.com/stream",
+    "active": true,
+    "id": 8
+  },
+  {
+    "name": "arkansas_state",
+    "url": "https://das-edge16-live365-dal02.cdnstream.com/a98950",
+    "active": true,
+    "id": 9
+  },
+  {
+    "name": "auburn",
+    "url": "https://ais-sa1.streamon.fm/7116_32k.aac",
+    "active": true,
+    "id": 10
+  },
+  {
+    "name": "ball_state",
+    "url": "https://s6.reliastream.com/proxy/ballstat?mp=/stream",
+    "active": true,
+    "id": 11
+  },
+  {
+    "name": "black_hills_state",
+    "url": "https://kbhu.bhsu.edu/index.html?sid=1",
+    "active": true,
+    "id": 12
+  },
+  {
+    "name": "boise_state",
+    "url": "https://das-edge14-live365-dal02.cdnstream.com/a28825",
+    "active": true,
+    "id": 13
+  },
+  {
+    "name": "boston",
+    "url": "http://wtbu.bu.edu:1800/",
+    "active": true,
+    "id": 14
+  },
+  {
+    "name": "boston_college",
+    "url": "https://stream.wzbc.org/wzbc",
+    "active": true,
+    "id": 15
+  },
+  {
+    "name": "bowie_state",
+    "url": "https://ais-sa1.streamon.fm/7971_96k.aac/playlist.m3u8",
+    "active": true,
+    "id": 16
+  },
+  {
+    "name": "bowling_green_state",
+    "url": "https://dvstream2.bgsu.edu/wfal",
+    "active": true,
+    "id": 17
+  },
+  {
+    "name": "brown",
+    "url": "https://listen.bsrlive.com/bsrmp3",
+    "active": true,
+    "id": 18
+  },
+  {
+    "name": "buffalo",
+    "url": "http://136.183.9.38:3307/stream/1/",
+    "active": true,
+    "id": 19
+  },
+  {
+    "name": "california_poly_state",
+    "url": "https://ice9.securenetsystems.net/KCPR1",
+    "active": true,
+    "id": 20
+  },
+  {
+    "name": "california_state_sacramento",
+    "url": "https://us2.maindigitalstream.com/ssl/KSSU",
+    "active": true,
+    "id": 21
+  },
+  {
+    "name": "campbellsville",
+    "url": "https://26293.live.streamtheworld.com/WLCUFMAAC_SC",
+    "active": true,
+    "id": 22
+  },
+  {
+    "name": "case_western_reserve",
+    "url": "https://wruw-stream.wruw.org/hls/stream-32000.m3u8",
+    "active": true,
+    "id": 23
+  },
+  {
+    "name": "central_arkansas",
+    "url": "https://us2.maindigitalstream.com/ssl/KUCA",
+    "active": true,
+    "id": 24
+  },
+  {
+    "name": "central_connecticut_state",
+    "url": "https://listen.mixlr.com/a53e3ffe92f65a23d07c6ad8e3d8ecf7",
+    "active": false,
+    "id": 25
+  },
+  {
+    "name": "central_michigan_1",
+    "url": "http://www.wmhw.cmich.edu:915/live.mp3",
+    "active": true,
+    "id": 26
+  },
+  {
+    "name": "central_michigan_2",
+    "url": "http://www.wmhw.cmich.edu:1011/1011.mp3",
+    "active": true,
+    "id": 27
+  },
+  {
+    "name": "central_missouri",
+    "url": "http://198.245.60.88:8232/stream",
+    "active": true,
+    "id": 28
+  },
+  {
+    "name": "central_washington",
+    "url": "https://prod-54-162-171-6.amperwave.net/kcwu-kcwufmaac-hlsc1.m3u8",
+    "active": true,
+    "id": 29
+  },
+  {
+    "name": "chaminade_honolulu",
+    "url": "http://quarrel.str3am.com:7190/;",
+    "active": true,
+    "id": 30
+  },
+  {
+    "name": "charleston",
+    "url": "https://s4.radio.co/s9c8cc952d/listen",
+    "active": true,
+    "id": 31
+  },
+  {
+    "name": "chicago",
+    "url": "https://whpk-stream.uchicago.edu/stream",
+    "active": true,
+    "id": 32
+  },
+  {
+    "name": "cincinnati",
+    "url": "https://s4.radio.co/sa4dd72cde/listen",
+    "active": true,
+    "id": 33
+  },
+  {
+    "name": "clemson",
+    "url": "https://wsbf.net/stream/high",
+    "active": true,
+    "id": 34
+  },
+  {
+    "name": "cleveland_state",
+    "url": "https://xcsb.live/listen/xcsb-cleveland/xcsb.aac",
+    "active": true,
+    "id": 35
+  },
+  {
+    "name": "coastal_carolina",
+    "url": "https://ice24.securenetsystems.net/WCCU",
+    "active": true,
+    "id": 36
+  },
+  {
+    "name": "colorado_boulder",
+    "url": "https://kvcu.streamguys1.com/live",
+    "active": true,
+    "id": 37
+  },
+  {
+    "name": "colorado_college",
+    "url": "https://s4.radio.co/sf02d4cfa1/listen",
+    "active": true,
+    "id": 38
+  },
+  {
+    "name": "colorado_colorado_springs",
+    "url": "https://19003.live.streamtheworld.com/SP_R4204760.aac",
+    "active": true,
+    "id": 39
+  },
+  {
+    "name": "colorado_denver",
+    "url": "https://das-edge12-live365-dal02.cdnstream.com/a13908",
+    "active": true,
+    "id": 40
+  },
+  {
+    "name": "colorado_mesa",
+    "url": "https://stream.radio.co/sbe6b707bd/listen",
+    "active": true,
+    "id": 41
+  },
+  {
+    "name": "colorado_state_fort_collins",
+    "url": "https://kvcu.streamguys1.com/live",
+    "active": true,
+    "id": 42
+  },
+  {
+    "name": "colorado_state_pueblo",
+    "url": "https://player.amperwave.net/3579?autoplay=1",
+    "active": false,
+    "id": 43
+  },
+  {
+    "name": "columbia",
+    "url": "https://wkcr.streamguys1.com/live",
+    "active": true,
+    "id": 44
+  },
+  {
+    "name": "concord",
+    "url": "https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8",
+    "active": true,
+    "id": 45
+  },
+  {
+    "name": "connecticut",
+    "url": "http://stream.whus.org:8000/whusfm",
+    "active": true,
+    "id": 46
+  },
+  {
+    "name": "cornell",
+    "url": "https://das-edge11-live365-dal03.cdnstream.com/a25496",
+    "active": true,
+    "id": 47
+  },
+  {
+    "name": "cs_fresno",
+    "url": "https://icecast.auxiliary.com/kfsr",
+    "active": true,
+    "id": 48
+  },
+  {
+    "name": "cs_fullerton_1",
+    "url": "https://s5.radio.co/scb89aab9c/listen",
+    "active": true,
+    "id": 49
+  },
+  {
+    "name": "cs_fullerton_2",
+    "url": "https://s4.radio.co/sc9f144c94/listen",
+    "active": true,
+    "id": 50
+  },
+  {
+    "name": "cs_long_beach",
+    "url": "https://17813.live.streamtheworld.com/22WESTRADIOONLINE.mp3",
+    "active": true,
+    "id": 51
+  },
+  {
+    "name": "cuny_hunter",
+    "url": "https://s4.radio.co/s66412ba23/listen",
+    "active": true,
+    "id": 52
+  },
+  {
+    "name": "dartmouth",
+    "url": "https://17653.live.streamtheworld.com/DC_RADIOAAC.aac",
+    "active": true,
+    "id": 53
+  },
+  {
+    "name": "dayton",
+    "url": "https://ais-sa1.streamon.fm/7041_48k.aac/playlist.m3u8?listenerId=esTrackblock0556241&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1729292027",
+    "active": true,
+    "id": 54
+  },
+  {
+    "name": "delaware",
+    "url": "http://128.175.76.123:8000/stream/2/",
+    "active": true,
+    "id": 55
+  },
+  {
+    "name": "denver",
+    "url": "https://streamer.radio.co/s876f91b37/listen",
+    "active": true,
+    "id": 56
+  },
+  {
+    "name": "duke",
+    "url": "https://weeping.wxdu.duke.edu:8443/wxdu128.mp3",
+    "active": true,
+    "id": 57
+  },
+  {
+    "name": "dupage",
+    "url": "https://wdcb-ice.streamguys1.com/mobile-AAC",
+    "active": true,
+    "id": 58
+  },
+  {
+    "name": "dupaul",
+    "url": "https://ice26.securenetsystems.net/RADIODEPAUL",
+    "active": true,
+    "id": 59
+  },
+  {
+    "name": "east_carolina",
+    "url": "https://ice41.securenetsystems.net/WZMB",
+    "active": true,
+    "id": 60
+  },
+  {
+    "name": "eastern_michigan",
+    "url": "http://eaglemp3.emich.edu:8000/EAGLE_ogg",
+    "active": true,
+    "id": 61
+  },
+  {
+    "name": "eastern_new_mexico",
+    "url": "https://ice42.securenetsystems.net/HWR",
+    "active": false,
+    "id": 62
+  },
+  {
+    "name": "eastern_washington",
+    "url": "https://streamer.radio.co/s3ba633066/listen",
+    "active": true,
+    "id": 63
+  },
+  {
+    "name": "elon",
+    "url": "https://audio-mp3.ibiblio.org/wsoe.mp3",
+    "active": true,
+    "id": 64
+  },
+  {
+    "name": "emory",
+    "url": "https://stream.radio.co/sdfdf17eb4/listen",
+    "active": true,
+    "id": 65
+  },
+  {
+    "name": "evergreen_state",
+    "url": "http://205.134.192.90:8930/;",
+    "active": true,
+    "id": 66
+  },
+  {
+    "name": "fairleigh_dickinson_university",
+    "url": "https://peridot.streamguys1.com:5350/iheartclassical-aac",
+    "active": true,
+    "id": 67
+  },
+  {
+    "name": "florida",
+    "url": "https://ais-sa1.streamon.fm/7269_48k.aac/playlist.m3u8",
+    "active": true,
+    "id": 68
+  },
+  {
+    "name": "florida_international",
+    "url": "https://s2.voscast.com:11835/stream",
+    "active": true,
+    "id": 69
+  },
+  {
+    "name": "florida_state",
+    "url": "http://voice.wvfs.fsu.edu:8000/stream",
+    "active": true,
+    "id": 70
+  },
+  {
+    "name": "fort_hays_state",
+    "url": "https://kfhs.out.airtime.pro/kfhs_b",
+    "active": true,
+    "id": 71
+  },
+  {
+    "name": "fort_lewis",
+    "url": "https://kdurradio.fortlewis.edu/stream",
+    "active": true,
+    "id": 72
+  },
+  {
+    "name": "george_mason",
+    "url": "https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/9c6e91fc-e9f8-abd5-8ae2-711e29184c81/source/index.m3u8",
+    "active": true,
+    "id": 73
+  },
+  {
+    "name": "georgia",
+    "url": "https://stream.wuog.org/stream",
+    "active": true,
+    "id": 74
+  },
+  {
+    "name": "georgia_state",
+    "url": "https://22213.live.streamtheworld.com/WRASFM.mp3",
+    "active": true,
+    "id": 75
+  },
+  {
+    "name": "georgia_tech",
+    "url": "https://streaming.wrek.org/main/128kb.mp3",
+    "active": true,
+    "id": 76
+  },
+  {
+    "name": "gonzaga",
+    "url": "https://streams.radio.co/s265a34001/listen",
+    "active": true,
+    "id": 77
+  },
+  {
+    "name": "grand_valley_state",
+    "url": "https://ice24.securenetsystems.net/WLSX",
+    "active": true,
+    "id": 78
+  },
+  {
+    "name": "hampton",
+    "url": "https://n25a-e2.revma.ihrhls.com/zc5599/37_phv05y54p2ri02/playlist.m3u8",
+    "active": true,
+    "id": 79
+  },
+  {
+    "name": "harding",
+    "url": "http://streamer.tcworks.net:8000/am1660",
+    "active": false,
+    "id": 80
+  },
+  {
+    "name": "harvard",
+    "url": "https://stream.whrb.org/whrb-he-aac",
+    "active": true,
+    "id": 81
+  },
+  {
+    "name": "hawaii_hilo",
+    "url": "https://live.amperwave.net/manifest/uofhawaii-kuhhlpaac-hlsc1.m3u8",
+    "active": true,
+    "id": 82
+  },
+  {
+    "name": "hawaii_manoa",
+    "url": "https://stream.ktuh.org:8001/stream",
+    "active": true,
+    "id": 83
+  },
+  {
+    "name": "houston",
+    "url": "https://coogradio2.es.uh.edu/coogradio?ver=431575",
+    "active": true,
+    "id": 84
+  },
+  {
+    "name": "idaho",
+    "url": "https://s2.radio.co/sedf30688d/listen",
+    "active": true,
+    "id": 85
+  },
+  {
+    "name": "illinois_chicago",
+    "url": "https://us2.maindigitalstream.com/ssl/UIC",
+    "active": true,
+    "id": 86
+  },
+  {
+    "name": "illinois_state",
+    "url": "https://ice25.securenetsystems.net/WZNDLP",
+    "active": true,
+    "id": 87
+  },
+  {
+    "name": "illinois_urbana_champaign",
+    "url": "https://ice64.securenetsystems.net/WPGUFM",
+    "active": true,
+    "id": 88
+  },
+  {
+    "name": "indiana",
+    "url": "https://ice25.securenetsystems.net/WIUXLP",
+    "active": true,
+    "id": 89
+  },
+  {
+    "name": "iowa",
+    "url": "http://krui.student-services.uiowa.edu:8000/listen",
+    "active": true,
+    "id": 90
+  },
+  {
+    "name": "iowa_state",
+    "url": "http://kure-network.stuorg.iastate.edu:8000/KUREBroadcast",
+    "active": true,
+    "id": 91
+  },
+  {
+    "name": "jacksonville_state",
+    "url": "https://s8.yesstreaming.net:17014/stream",
+    "active": true,
+    "id": 92
+  },
+  {
+    "name": "james_madison",
+    "url": "https://audio-edge-vqwx4.yyz.g.radiomast.io/76aba52f-79d0-422a-9c16-723754d14541",
+    "active": true,
+    "id": 93
+  },
+  {
+    "name": "kansas",
+    "url": "https://listen.mixlr.com/c975c98cc50085b41823f4e1d7cca07b",
+    "active": true,
+    "id": 94
+  },
+  {
+    "name": "kansas_state",
+    "url": "https://s.radiowave.io/ksdb.opus",
+    "active": true,
+    "id": 95
+  },
+  {
+    "name": "kean",
+    "url": "http://ic2591.c2343.fast-serv.com/stream",
+    "active": true,
+    "id": 96
+  },
+  {
+    "name": "kennesaw_state",
+    "url": "https://streamer.radio.co/s4cd5c0b5f/listen",
+    "active": true,
+    "id": 97
+  },
+  {
+    "name": "kentucky",
+    "url": "https://wrfl.fm:8002/stream/1",
+    "active": true,
+    "id": 98
+  },
+  {
+    "name": "lander",
+    "url": "https://s5.radio.co/sb92c389ff/listen",
+    "active": true,
+    "id": 99
+  },
+  {
+    "name": "lewis_clark_state",
+    "url": "https://cast5.asurahosting.com/proxy/lewiscla/live?ver=33051",
+    "active": true,
+    "id": 100
+  },
+  {
+    "name": "liberty",
+    "url": "https://ic.liberty.edu:8443/WQLU",
+    "active": true,
+    "id": 101
+  },
+  {
+    "name": "lipscomb",
+    "url": "https://ice64.securenetsystems.net/WUTM",
+    "active": true,
+    "id": 102
+  },
+  {
+    "name": "longwood",
+    "url": "https://ice64.securenetsystems.net/WMLUFM",
+    "active": true,
+    "id": 103
+  },
+  {
+    "name": "louisiana_lafayette",
+    "url": "https://18093.live.streamtheworld.com/KAMPUS_FMAAC.aac",
+    "active": true,
+    "id": 104
+  },
+  {
+    "name": "louisiana_monroe",
+    "url": "https://stream.kxul.com/listen",
+    "active": true,
+    "id": 105
+  },
+  {
+    "name": "louisiana_tech",
+    "url": "http://138.47.83.60:8000/stream",
+    "active": true,
+    "id": 106
+  },
+  {
+    "name": "loyola_chicago",
+    "url": "https://ice26.securenetsystems.net/WLUW",
+    "active": true,
+    "id": 107
+  },
+  {
+    "name": "loyola_maryland",
+    "url": "https://listen.wloy.org/live",
+    "active": true,
+    "id": 108
+  },
+  {
+    "name": "lsu",
+    "url": "https://listen.lsureveille.com/stream",
+    "active": true,
+    "id": 109
+  },
+  {
+    "name": "maine",
+    "url": "http://wmeb-stream.maine.edu:8000/wmeb",
+    "active": true,
+    "id": 110
+  },
+  {
+    "name": "maine_at_augusta",
+    "url": "https://das-edge10-live365-dal03.cdnstream.com/a77762",
+    "active": true,
+    "id": 111
+  },
+  {
+    "name": "marquette",
+    "url": "https://www.ophanim.net:8444/s/7360",
+    "active": true,
+    "id": 112
+  },
+  {
+    "name": "marshall",
+    "url": "https://das-edge61-sa48-futuri-pit01.cdnstream.com/7128_24k.aac/playlist.m3u8",
+    "active": true,
+    "id": 113
+  },
+  {
+    "name": "maryland_baltimore_county",
+    "url": "https://streams.radio.co/s7a5fb9da6/listen",
+    "active": true,
+    "id": 114
+  },
+  {
+    "name": "maryland_college_park",
+    "url": "https://wmuc.umd.edu:8443/wmuc2-high",
+    "active": true,
+    "id": 115
+  },
+  {
+    "name": "massachusetts_amherst",
+    "url": "https://usa5.fastcast4u.com/proxy/qernhlca?mp=/1",
+    "active": true,
+    "id": 116
+  },
+  {
+    "name": "massachusetts_boston",
+    "url": "https://wumb.streamguys1.com/wumb919fast",
+    "active": true,
+    "id": 117
+  },
+  {
+    "name": "massachusetts_lowell",
+    "url": "https://securestream.casthost.net:8609/stream",
+    "active": true,
+    "id": 118
+  },
+  {
+    "name": "memphis",
+    "url": "https://crosstown.streamguys1.com/live-website-aac",
+    "active": true,
+    "id": 119
+  },
+  {
+    "name": "metro_state_denver",
+    "url": "https://streams.radio.co/sc35284aed/listen",
+    "active": true,
+    "id": 120
+  },
+  {
+    "name": "miami",
+    "url": "https://s7.voscast.com:8693/stream",
+    "active": true,
+    "id": 121
+  },
+  {
+    "name": "michigan",
+    "url": "https://floyd.wcbn.org:8443/wcbn-hd.mp3",
+    "active": true,
+    "id": 122
+  },
+  {
+    "name": "michigan_state",
+    "url": "https://play.impact89fm.org:8000/impact89fm",
+    "active": true,
+    "id": 123
+  },
+  {
+    "name": "middle_tennessee_state",
+    "url": "https://s1.myradiostream.com:12824/listen.mp3",
+    "active": true,
+    "id": 124
+  },
+  {
+    "name": "mississippi_state",
+    "url": "https://stream.wmsv.msstate.edu:8000/wmsv",
+    "active": true,
+    "id": 125
+  },
+  {
+    "name": "mit",
+    "url": "https://wmbr.org:8002/hi",
+    "active": true,
+    "id": 126
+  },
+  {
+    "name": "montana",
+    "url": "https://listen.mixlr.com/57adc688a1e3a6996fdfb506e3cffb55",
+    "active": true,
+    "id": 127
+  },
+  {
+    "name": "montana_state_northern",
+    "url": "https://knmc.streamguys1.com/live-mp3",
+    "active": true,
+    "id": 128
+  },
+  {
+    "name": "montclair_state",
+    "url": "https://peridot.streamguys1.com:5485/live-mp3",
+    "active": true,
+    "id": 129
+  },
+  {
+    "name": "ms_mankato",
+    "url": "https://stream.aiir.com/ivdkskjmcnhuv",
+    "active": true,
+    "id": 130
+  },
+  {
+    "name": "nc_at_state",
+    "url": "https://audio-edge-qse4n.yyz.g.radiomast.io/28c47f0c-a3b5-444f-b8de-08c3b11dc71e",
+    "active": true,
+    "id": 131
+  },
+  {
+    "name": "ncs_raleigh_1",
+    "url": "https://das-edge14-live365-dal02.cdnstream.com/a45877",
+    "active": true,
+    "id": 132
+  },
+  {
+    "name": "ncs_raleigh_2",
+    "url": "https://das-edge12-live365-dal02.cdnstream.com/a30009",
+    "active": true,
+    "id": 133
+  },
+  {
+    "name": "nebraska_lincoln_1",
+    "url": "https://s8.yesstreaming.net:17004/krnu",
+    "active": true,
+    "id": 134
+  },
+  {
+    "name": "nebraska_lincoln_2",
+    "url": "https://s2.yesstreaming.net:17078/krnu2",
+    "active": true,
+    "id": 135
+  },
+  {
+    "name": "nebraska_omaha",
+    "url": "https://kvnovm-hd2.unomaha.edu:8443/listen.mp3",
+    "active": true,
+    "id": 136
+  },
+  {
+    "name": "nevada_las_vegas",
+    "url": "http://kunv.oit.unlv.edu:8000/stream/4/",
+    "active": true,
+    "id": 137
+  },
+  {
+    "name": "nevada_reno",
+    "url": "https://streamer.radio.co/s01995b9a1/listen",
+    "active": true,
+    "id": 138
+  },
+  {
+    "name": "new_england",
+    "url": "https://wnecfm.radioca.st/stream?type=http",
+    "active": true,
+    "id": 139
+  },
+  {
+    "name": "new_hampshire",
+    "url": "https://audio-edge-qse4n.yyz.g.radiomast.io/5cc7d987-c820-4e7d-944a-eb12c71f5674",
+    "active": true,
+    "id": 140
+  },
+  {
+    "name": "new_mexico_state",
+    "url": "https://kruxstream.nmsu.edu/KRUX",
+    "active": true,
+    "id": 141
+  },
+  {
+    "name": "new_york",
+    "url": "https://www.wnyu-ice-cast-relay.com/wnyu.mp3",
+    "active": true,
+    "id": 142
+  },
+  {
+    "name": "nicholls_state",
+    "url": "https://us2.maindigitalstream.com/ssl/KNSU",
+    "active": false,
+    "id": 143
+  },
+  {
+    "name": "norfolk_state",
+    "url": "https://17993.live.streamtheworld.com/WNSBFM.mp3",
+    "active": true,
+    "id": 144
+  },
+  {
+    "name": "north_dakota",
+    "url": "https://ice.romanport.com/knds",
+    "active": true,
+    "id": 145
+  },
+  {
+    "name": "north_florida",
+    "url": "https://listen.spinnakerradio.com/stream",
+    "active": true,
+    "id": 146
+  },
+  {
+    "name": "north_texas_1",
+    "url": "https://ice41.securenetsystems.net/KNTUHD2",
+    "active": true,
+    "id": 147
+  },
+  {
+    "name": "north_texas_2",
+    "url": "https://ice41.securenetsystems.net/KNTU",
+    "active": true,
+    "id": 148
+  },
+  {
+    "name": "northeastern",
+    "url": "https://audio-edge-qse4n.yyz.g.radiomast.io/dafd1179-5404-4939-9c1c-a014c6964254",
+    "active": true,
+    "id": 149
+  },
+  {
+    "name": "northeastern_state",
+    "url": "https://das-edge62-live365-dal03.cdnstream.com/a46783",
+    "active": true,
+    "id": 150
+  },
+  {
+    "name": "northern_arizona",
+    "url": "https://stream.ec.nau.edu:8443/kjack",
+    "active": true,
+    "id": 151
+  },
+  {
+    "name": "northern_kentucky",
+    "url": "https://listen.norsecoderadio.com/stream",
+    "active": true,
+    "id": 152
+  },
+  {
+    "name": "northwestern",
+    "url": "https://n14.rcs.revma.com/w4pmmfkdx4zuv",
+    "active": true,
+    "id": 153
+  },
+  {
+    "name": "notre_dame",
+    "url": "https://s4.radio.co/s49f365ee3/listen",
+    "active": true,
+    "id": 154
+  },
+  {
+    "name": "nova_southeastern",
+    "url": "https://das-edge62-live365-dal03.cdnstream.com/a46783",
+    "active": true,
+    "id": 155
+  },
+  {
+    "name": "oakland",
+    "url": "https://a8.asurahosting.com:7810/radio.mp3",
+    "active": true,
+    "id": 156
+  },
+  {
+    "name": "ohio",
+    "url": "https://streamer.radio.co/s319507a6f/listen",
+    "active": true,
+    "id": 157
+  },
+  {
+    "name": "ohio_state",
+    "url": "https://das-edge62-live365-dal03.cdnstream.com/a05133",
+    "active": true,
+    "id": 158
+  },
+  {
+    "name": "ole_miss",
+    "url": "http://130.74.34.21:8000/stream",
+    "active": true,
+    "id": 159
+  },
+  {
+    "name": "oregon",
+    "url": "http://kwvaradio.uoregon.edu:8000/stream/1/",
+    "active": true,
+    "id": 160
+  },
+  {
+    "name": "oregon_state",
+    "url": "https://stream-178.zeno.fm/9ympbz9nfa0uv",
+    "active": true,
+    "id": 161
+  },
+  {
+    "name": "pacific_luteran",
+    "url": "https://lasr.streamguys1.com/lasr-aac",
+    "active": true,
+    "id": 162
+  },
+  {
+    "name": "penn_state",
+    "url": "https://n04.radiojar.com/k9uw1tyr7x8uv",
+    "active": true,
+    "id": 163
+  },
+  {
+    "name": "pennsylvania",
+    "url": "https://shaincast.caster.fm:35011/listen.mp3",
+    "active": false,
+    "id": 164
+  },
+  {
+    "name": "pitt_state",
+    "url": "https://s2.voscast.com:12109/stream",
+    "active": true,
+    "id": 165
+  },
+  {
+    "name": "pittsburgh",
+    "url": "http://audio.wpts.pitt.edu:8000/wpts_live_128s.mp3",
+    "active": true,
+    "id": 166
+  },
+  {
+    "name": "plymouth_state",
+    "url": "https://das-edge17-live365-dal02.cdnstream.com/a55917",
+    "active": true,
+    "id": 167
+  },
+  {
+    "name": "portland",
+    "url": "https://prod-3-222-116-19.amperwave.net/university_of_portland-kdupfmaac-hlsc.m3u8",
+    "active": true,
+    "id": 168
+  },
+  {
+    "name": "portland_state",
+    "url": "https://streamer.radio.co/scad0cc067/listen",
+    "active": true,
+    "id": 169
+  },
+  {
+    "name": "princeton",
+    "url": "https://wprb.streamguys1.com/live",
+    "active": true,
+    "id": 170
+  },
+  {
+    "name": "puget_sound",
+    "url": "http://51.81.208.185:8244/stream",
+    "active": false,
+    "id": 171
+  },
+  {
+    "name": "purdue",
+    "url": "https://das-edge63-live365-dal03.cdnstream.com/a34661",
+    "active": true,
+    "id": 172
+  },
+  {
+    "name": "quinnipiac",
+    "url": "https://ice64.securenetsystems.net/WQAQ",
+    "active": true,
+    "id": 173
+  },
+  {
+    "name": "radford",
+    "url": "https://wvru1.mtcstream.com:8500/wvru1",
+    "active": true,
+    "id": 174
+  },
+  {
+    "name": "reed",
+    "url": "https://n0d.radiojar.com/3wg5hpdkfkeuv?rj-ttl=5&rj-tok=AAABm8fi3jgAnt8p1vbltZdQTw",
+    "active": true,
+    "id": 175
+  },
+  {
+    "name": "rhode_island",
+    "url": "https://stream.wriu.org/wriu-fm",
+    "active": true,
+    "id": 176
+  },
+  {
+    "name": "richmond",
+    "url": "https://das-edge14-live365-dal02.cdnstream.com/a39711",
+    "active": true,
+    "id": 177
+  },
+  {
+    "name": "rit",
+    "url": "https://streaming.witr.rit.edu/live-aac-96",
+    "active": true,
+    "id": 178
+  },
+  {
+    "name": "rowan",
+    "url": "https://wgls.broadcasttool.stream/wgls",
+    "active": true,
+    "id": 179
+  },
+  {
+    "name": "rutgers",
+    "url": "https://wrsu-libstrm.radioca.st/stream",
+    "active": true,
+    "id": 180
+  },
+  {
+    "name": "sacred_heart",
+    "url": "https://wshu-iad.streamguys1.com/wshu-air",
+    "active": true,
+    "id": 181
+  },
+  {
+    "name": "saint_cloud_state",
+    "url": "https://corn.kvsc.org/broadband",
+    "active": true,
+    "id": 182
+  },
+  {
+    "name": "saint_louis",
+    "url": "http://165.134.16.26:8100/listen",
+    "active": true,
+    "id": 183
+  },
+  {
+    "name": "salisbury",
+    "url": "https://shaincast.caster.fm:20149/listen.mp3?authnd29fc7abcf3223c571348aa4432cf327",
+    "active": true,
+    "id": 184
+  },
+  {
+    "name": "san_diego_state",
+    "url": "https://kcrstreaming.sdsu.edu:8000/;?type=http&nocache=4017",
+    "active": true,
+    "id": 185
+  },
+  {
+    "name": "san_francisco_state",
+    "url": "https://us2.maindigitalstream.com/ssl/KSFS",
+    "active": true,
+    "id": 186
+  },
+  {
+    "name": "san_jose_state",
+    "url": "https://streaming.ksjs.sjsu.edu/",
+    "active": true,
+    "id": 187
+  },
+  {
+    "name": "seattle",
+    "url": "https://c556.fastserv.com/kxsu",
+    "active": true,
+    "id": 188
+  },
+  {
+    "name": "seattle_pacific",
+    "url": "https://listen.mixlr.com/162b3877573a61516f6c3723d89b3bd9",
+    "active": true,
+    "id": 189
+  },
+  {
+    "name": "seton_hall",
+    "url": "https://d3byg0ij92yqk6.cloudfront.net/streamWSOU1.m3u8",
+    "active": true,
+    "id": 190
+  },
+  {
+    "name": "shepherd",
+    "url": "https://das-edge62-live365-dal03.cdnstream.com/a91595",
+    "active": true,
+    "id": 191
+  },
+  {
+    "name": "south_carolina_columbia",
+    "url": "https://stream.wusc.fm/listen.mp3",
+    "active": true,
+    "id": 192
+  },
+  {
+    "name": "south_dakota",
+    "url": "http://janus.cdnstream.com:5314/stream",
+    "active": true,
+    "id": 193
+  },
+  {
+    "name": "south_dakota_state",
+    "url": "https://ksdj.stream.creek.fm/stream",
+    "active": true,
+    "id": 194
+  },
+  {
+    "name": "southeastern_louisiana",
+    "url": "https://das-edge63-live365-dal03.cdnstream.com/a75148",
+    "active": true,
+    "id": 195
+  },
+  {
+    "name": "southern_am",
+    "url": "https://stream3.rcast.net/71377",
+    "active": true,
+    "id": 196
+  },
+  {
+    "name": "southern_arkansas",
+    "url": "https://streaming.sautech.edu/stream",
+    "active": false,
+    "id": 197
+  },
+  {
+    "name": "southern_california",
+    "url": "https://broadcast.shoutcheap.com/proxy/kxsckxsc/stream",
+    "active": true,
+    "id": 198
+  },
+  {
+    "name": "southern_connecticut_state",
+    "url": "https://broadcast.shoutcheap.com/stream/wsinradi/stream.pls",
+    "active": false,
+    "id": 199
+  },
+  {
+    "name": "southern_maine",
+    "url": "https://stream.pacificaservice.org:9000/wmpg",
+    "active": true,
+    "id": 200
+  },
+  {
+    "name": "southern_methodist",
+    "url": "https://www.smuradiofrequency.com/live",
+    "active": false,
+    "id": 201
+  },
+  {
+    "name": "southern_mississippi",
+    "url": "https://wusm-stream2.usm.edu/wusm",
+    "active": true,
+    "id": 202
+  },
+  {
+    "name": "southern_utah",
+    "url": "https://cdnapisec.kaltura.com/p/1658411/sp/165841100/playManifest/entryId/0_fqswk5fh/format/applehttp/protocol/https/uiConfId/34122032/a.m3u8",
+    "active": true,
+    "id": 203
+  },
+  {
+    "name": "st_johns",
+    "url": "https://radio.stjohns.edu:8443/wsjuAAC",
+    "active": true,
+    "id": 204
+  },
+  {
+    "name": "st_thomas",
+    "url": "https://listen.mixlr.com/d8e619d138b665f278b19f9bab059955",
+    "active": true,
+    "id": 205
+  },
+  {
+    "name": "stony_brook",
+    "url": "https://stream.wusb.stonybrook.edu:8092/listen.pl/relay",
+    "active": true,
+    "id": 206
+  },
+  {
+    "name": "syracuse",
+    "url": "https://listen.mixlr.com/e908de585c76b0b7a6c14ec0972cd48f",
+    "active": true,
+    "id": 207
+  },
+  {
+    "name": "tarleton_state",
+    "url": "https://kxtr.streamguys1.com/live-aac",
+    "active": true,
+    "id": 208
+  },
+  {
+    "name": "temple",
+    "url": "https://ice23.securenetsystems.net/WHIP",
+    "active": true,
+    "id": 209
+  },
+  {
+    "name": "tennessee_chattanooga",
+    "url": "http://wutc-stream.utc.edu:8000/theperch",
+    "active": true,
+    "id": 210
+  },
+  {
+    "name": "tennessee_knoxville",
+    "url": "https://22213.live.streamtheworld.com/WUTKFM.mp3",
+    "active": true,
+    "id": 211
+  },
+  {
+    "name": "tennessee_martin",
+    "url": "https://ice64.securenetsystems.net/WUTM",
+    "active": true,
+    "id": 212
+  },
+  {
+    "name": "tennessee_tech",
+    "url": "https://ice66.securenetsystems.net/WTTU",
+    "active": true,
+    "id": 213
+  },
+  {
+    "name": "texas_am",
+    "url": "https://icecast.kanm.org/listen",
+    "active": true,
+    "id": 214
+  },
+  {
+    "name": "texas_arlington",
+    "url": "https://n3ca-e2.revma.ihrhls.com/zc5858/60_12kboa7g7kseo02/playlist.m3u8",
+    "active": true,
+    "id": 215
+  },
+  {
+    "name": "texas_austin",
+    "url": "https://streams.kut.org/5020_192.mp3",
+    "active": true,
+    "id": 216
+  },
+  {
+    "name": "texas_christian",
+    "url": "https://ktcustream.tcu.edu/",
+    "active": true,
+    "id": 217
+  },
+  {
+    "name": "texas_dallas",
+    "url": "https://streamer.radio.co/sf849b08e1/listen",
+    "active": true,
+    "id": 218
+  },
+  {
+    "name": "texas_rio_grande_valley",
+    "url": "https://utrgv.streamguys1.com/live-mp3-player",
+    "active": true,
+    "id": 219
+  },
+  {
+    "name": "texas_san_antonio",
+    "url": "https://us2.maindigitalstream.com/ssl/KSYM",
+    "active": true,
+    "id": 220
+  },
+  {
+    "name": "toledo",
+    "url": "https://c23.radioboss.fm:8099/stream",
+    "active": true,
+    "id": 221
+  },
+  {
+    "name": "towson",
+    "url": "https://streaming.radio.co/s3e71fd859/listen",
+    "active": true,
+    "id": 222
+  },
+  {
+    "name": "tulane",
+    "url": "https://stream.wtulneworleans.com/",
+    "active": true,
+    "id": 223
+  },
+  {
+    "name": "uc_berkeley",
+    "url": "https://stream.kalx.berkeley.edu:8443/kalx-128.mp3",
+    "active": true,
+    "id": 224
+  },
+  {
+    "name": "uc_davis",
+    "url": "https://listen.kdvs.org/stream",
+    "active": true,
+    "id": 225
+  },
+  {
+    "name": "uc_irvine",
+    "url": "https://streamer.kuci.org:8088/high",
+    "active": true,
+    "id": 226
+  },
+  {
+    "name": "uc_la",
+    "url": "https://live.uclaradio.com/listen/ucla_radio/radio.mp3",
+    "active": true,
+    "id": 227
+  },
+  {
+    "name": "uc_riverside",
+    "url": "http://138.23.75.92:8001/",
+    "active": true,
+    "id": 228
+  },
+  {
+    "name": "uc_san_diego",
+    "url": "https://s4.radio.co/s2c33c7adb/listen",
+    "active": true,
+    "id": 229
+  },
+  {
+    "name": "uc_santa_barbara",
+    "url": "https://kcsb.streamguys1.com/live",
+    "active": true,
+    "id": 230
+  },
+  {
+    "name": "um_columbia",
+    "url": "https://audio-edge-vqwx4.yyz.g.radiomast.io/3237c6cc-e87d-480d-a261-33a35f2c44c0",
+    "active": true,
+    "id": 231
+  },
+  {
+    "name": "um_twin_cities",
+    "url": "https://radiok.broadcasttool.stream/play_256",
+    "active": true,
+    "id": 232
+  },
+  {
+    "name": "unc_chapel_hill",
+    "url": "https://audio-mp3.ibiblio.org/wxyc.mp3",
+    "active": true,
+    "id": 233
+  },
+  {
+    "name": "unc_greensboro",
+    "url": "https://das-edge12-live365-dal02.cdnstream.com/a43900",
+    "active": true,
+    "id": 234
+  },
+  {
+    "name": "utah",
+    "url": "https://s4.radio.co/sbdc60c0a8/listen",
+    "active": true,
+    "id": 235
+  },
+  {
+    "name": "utah_state",
+    "url": "https://aggieradio.creek.stream/stream",
+    "active": true,
+    "id": 236
+  },
+  {
+    "name": "vanderbilt",
+    "url": "https://streaming.wrvu.org/live",
+    "active": true,
+    "id": 237
+  },
+  {
+    "name": "vermont",
+    "url": "http://icecast.uvm.edu:8005/wruv_fm_128",
+    "active": true,
+    "id": 238
+  },
+  {
+    "name": "villanova",
+    "url": "https://securestream.casthost.net:8159/stream",
+    "active": true,
+    "id": 239
+  },
+  {
+    "name": "vincennes",
+    "url": "https://ice25.securenetsystems.net/WVUB",
+    "active": true,
+    "id": 240
+  },
+  {
+    "name": "virginia",
+    "url": "https://streams.wtju.net/wxtj-live.mp3",
+    "active": true,
+    "id": 241
+  },
+  {
+    "name": "virginia_commonwealth",
+    "url": "https://wvcwradio.vcu.edu:8000/wvcw",
+    "active": true,
+    "id": 242
+  },
+  {
+    "name": "virginia_tech",
+    "url": "https://stream.wuvt.vt.edu/wuvt.aac",
+    "active": true,
+    "id": 243
+  },
+  {
+    "name": "wake_forest",
+    "url": "http://152.17.49.84:8000/wakeradio",
+    "active": true,
+    "id": 244
+  },
+  {
+    "name": "washington",
+    "url": "https://rainydawg.org/api/audio",
+    "active": true,
+    "id": 245
+  },
+  {
+    "name": "washington_st_louis",
+    "url": "https://listen.mixlr.com/c5b799e27c89d908ab49ba407c6d9e91",
+    "active": true,
+    "id": 246
+  },
+  {
+    "name": "washington_state",
+    "url": "https://ice8.securenetsystems.net/KZUU",
+    "active": true,
+    "id": 247
+  },
+  {
+    "name": "wayne_state",
+    "url": "https://icecast.wsc.edu/thecat",
+    "active": true,
+    "id": 248
+  },
+  {
+    "name": "weber_state",
+    "url": "https://kwcrstream.weber.edu:8443/kwcr",
+    "active": false,
+    "id": 249
+  },
+  {
+    "name": "west_georgia",
+    "url": "https://prod-54-162-171-6.amperwave.net/uofwestgeorgia-wolfaac-hlsc1.m3u8",
+    "active": true,
+    "id": 250
+  },
+  {
+    "name": "west_liberty",
+    "url": "http://67.212.189.122:8264/stream",
+    "active": false,
+    "id": 251
+  },
+  {
+    "name": "west_virginia",
+    "url": "https://n03.radiojar.com/56p3rt9eytzuv",
+    "active": true,
+    "id": 252
+  },
+  {
+    "name": "west_virginia_state",
+    "url": "http://cast5.servcast.net:9186/stream",
+    "active": true,
+    "id": 253
+  },
+  {
+    "name": "western_carolina",
+    "url": "https://stream1.wwcufm.com:8900/wwcu1",
+    "active": true,
+    "id": 254
+  },
+  {
+    "name": "western_colorado",
+    "url": "https://kwsb.streamguys1.com/live",
+    "active": true,
+    "id": 255
+  },
+  {
+    "name": "western_michigan",
+    "url": "https://widrfm.net/stream",
+    "active": true,
+    "id": 256
+  },
+  {
+    "name": "western_oregon",
+    "url": "https://morcast.caster.fm:11276/ElCEN?token=ae43f0fe44a9fa0513b8d8c5f945dff8",
+    "active": false,
+    "id": 257
+  },
+  {
+    "name": "westminister",
+    "url": "https://s4.radio.co/sc14b53ddf/listen",
+    "active": false,
+    "id": 258
+  },
+  {
+    "name": "whitman",
+    "url": "http://shoutcast.whitman.edu:8000/;",
+    "active": true,
+    "id": 259
+  },
+  {
+    "name": "whitworth",
+    "url": "https://das-edge15-live365-dal02.cdnstream.com/a47302",
+    "active": true,
+    "id": 260
+  },
+  {
+    "name": "wichita_state",
+    "url": "https://kmuw.streamguys1.com/live.mp3",
+    "active": true,
+    "id": 261
+  },
+  {
+    "name": "william_and_mary",
+    "url": "https://wcwm.broadcasttool.stream/wcwm-onair",
+    "active": true,
+    "id": 262
+  },
+  {
+    "name": "winona_state",
+    "url": "https://www.kqal.org/stream/kqal.mp3",
+    "active": true,
+    "id": 263
+  },
+  {
+    "name": "winthrop",
+    "url": "https://ice25.securenetsystems.net/WINR",
+    "active": true,
+    "id": 264
+  },
+  {
+    "name": "wisconsin_green_bay",
+    "url": "https://das-edge14-live365-dal02.cdnstream.com/a32875",
+    "active": true,
+    "id": 265
+  },
+  {
+    "name": "wisconsin_madison",
+    "url": "https://ice23.securenetsystems.net/WSUMFM",
+    "active": true,
+    "id": 266
+  },
+  {
+    "name": "wisconsin_milwaukee",
+    "url": "https://das-edge63-live365-dal03.cdnstream.com/a75044",
+    "active": true,
+    "id": 267
+  },
+  {
+    "name": "wisconsin_oshkosh",
+    "url": "https://ais-sa1.streamon.fm/7223_32k.aac/playlist.m3u8",
+    "active": true,
+    "id": 268
+  },
+  {
+    "name": "wright_state",
+    "url": "https://server.wwsu1069.org/stream/",
+    "active": true,
+    "id": 269
+  },
+  {
+    "name": "yale",
+    "url": "https://s3.radio.co/s2af1cfe0c/listen",
+    "active": true,
+    "id": 270
+  },
+  {
+    "name": "youngstown",
+    "url": "https://streams.radio.co/sc78d93857/listen",
+    "active": true,
+    "id": 271
+  }
 ]
