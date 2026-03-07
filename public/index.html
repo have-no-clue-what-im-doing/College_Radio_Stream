@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Radio</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: #111;
+            color: #eee;
+            font-family: monospace;
+            padding: 40px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #888;
+        }
+
+        .station {
+            padding: 12px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            border: 1px solid #222;
+            border-radius: 4px;
+        }
+
+        .station:hover {
+            border-color: #444;
+            background: #1a1a1a;
+        }
+
+        .station.active {
+            border-color: #fff;
+            color: #fff;
+        }
+
+        .player {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+        }
+
+        .now-playing {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .now-playing span {
+            color: #eee;
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>college radio</h1>
+
+    <div id="stations"></div>
+
+    <div class="player">
+        <div class="now-playing">now playing: <span id="now-playing">nothing</span></div>
+        <audio id="audio" controls></audio>
+    </div>
+
+    <script>
+        const audio = document.getElementById('audio');
+        const nowPlaying = document.getElementById('now-playing');
+        let activeEl = null;
+
+        fetch('/api/stations')
+            .then(res => res.json())
+            .then(stations => {
+                const container = document.getElementById('stations');
+                stations.forEach(station => {
+                    const el = document.createElement('div');
+                    el.className = 'station';
+                    el.textContent = station.name;
+                    el.onclick = () => {
+                        if (activeEl) activeEl.classList.remove('active');
+                        activeEl = el;
+                        el.classList.add('active');
+                        nowPlaying.textContent = station.name;
+                        audio.src = `/api/stream/${station.id}`;
+                        audio.play();
+                    };
+                    container.appendChild(el);
+                });
+            });
+    </script>
+</body>
+</html>
