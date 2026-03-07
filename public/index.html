@@ -82,10 +82,12 @@
         <audio id="audio" controls></audio>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
         const audio = document.getElementById('audio');
         const nowPlaying = document.getElementById('now-playing');
         let activeEl = null;
+        let hls = null;
 
         fetch('/api/stations')
             .then(res => res.json())
@@ -102,8 +104,19 @@
                             activeEl = el;
                             el.classList.add('active');
                             nowPlaying.textContent = station.name;
-                            audio.src = `/api/stream/${station.id}`;
-                            audio.play();
+
+                            // destroy previous hls instance
+                            if (hls) hls.destroy();
+
+                            // ask backend to start ffmpeg
+                            fetch(`/api/stream/${station.id}/start`)
+                                .then(res => res.json())
+                                .then(data => {
+                                    hls = new Hls({ liveSyncDurationCount: 3 });
+                                    hls.loadSource(data.url);
+                                    hls.attachMedia(audio);
+                                    hls.on(Hls.Events.MANIFEST_PARSED, () => audio.play());
+                                });
                         };
                     }
 
