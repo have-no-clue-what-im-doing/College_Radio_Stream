@@ -10,7 +10,7 @@ const active = {};  // track running ffmpeg processes by station id
 app.use('/api/stream', express.static('/tmp/radio'));
 
 // start stream
-aapp.get('/api/stream/:id/start', (req, res) => {
+app.get('/api/stream/:id/start', (req, res) => {
     const station = stations.find(s => s.id === parseInt(req.params.id));
     if (!station) return res.status(404).json({ error: 'Station not found' });
 
