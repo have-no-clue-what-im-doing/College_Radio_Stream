@@ -20,6 +20,7 @@
             font-size: 1.2rem;
             margin-bottom: 20px;
             color: #888;
+            
         }
 
         .station {
@@ -52,10 +53,12 @@
         }
 
         .player {
-            /* position: fixed; */
+            position: fixed;
             margin-top: 30px;
             padding-top: 20px;
             border-top: 1px solid #222;
+            width: 20%;
+            margin-left: -30%;
         }
 
         .now-playing {
@@ -74,9 +77,10 @@
     </style>
 </head>
 <body>
-    <h1>college radio</h1>
+    
 
     <div class="player">
+        <h1>college radio</h1>
         <div class="now-playing">now playing: <span id="now-playing">nothing</span></div>
         <audio id="audio" controls></audio>
     </div>
