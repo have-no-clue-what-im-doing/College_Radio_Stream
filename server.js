@@ -10,14 +10,19 @@ const active = {};  // track running ffmpeg processes by station id
 app.use('/api/stream', express.static('/tmp/radio'));
 
 // start stream
-app.get('/api/stream/:id/start', (req, res) => {
+aapp.get('/api/stream/:id/start', (req, res) => {
     const station = stations.find(s => s.id === parseInt(req.params.id));
     if (!station) return res.status(404).json({ error: 'Station not found' });
 
     const id = station.id;
     const dir = `/tmp/radio/${id}`;
 
-    // kill any existing ffmpeg for this station
+    // if already running, just return the existing stream
+    if (active[id] && fs.existsSync(`${dir}/stream.m3u8`)) {
+        return res.json({ url: `/api/stream/${id}/stream.m3u8` });
+    }
+
+    // otherwise start fresh
     if (active[id]) {
         active[id].kill();
         delete active[id];
