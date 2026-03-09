@@ -18,7 +18,7 @@
 
         h1 {
             font-size: 1.2rem;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             color: #888;
         }
 
@@ -52,6 +52,7 @@
         }
 
         .player {
+            position: fixed;
             margin-top: 30px;
             padding-top: 20px;
             border-top: 1px solid #222;
@@ -75,12 +76,14 @@
 <body>
     <h1>college radio</h1>
 
-    <div id="stations"></div>
-
     <div class="player">
         <div class="now-playing">now playing: <span id="now-playing">nothing</span></div>
         <audio id="audio" controls></audio>
     </div>
+
+    <div id="stations"></div>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
