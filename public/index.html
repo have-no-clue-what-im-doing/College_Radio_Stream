@@ -181,7 +181,12 @@
                             fetch(`/api/stream/${station.id}/start`)
                                 .then(res => res.json())
                                 .then(data => {
-                                    hls = new Hls({ liveSyncDurationCount: 3 });
+                                    hls = new Hls({
+                                    liveSyncDurationCount: 4,
+                                    liveMaxLatencyDurationCount: 8,
+                                    maxBufferLength: 40,
+                                    maxMaxBufferLength: 80,
+                                    });
                                     hls.loadSource(data.url);
                                     hls.attachMedia(audio);
                                     hls.on(Hls.Events.MANIFEST_PARSED, () => audio.play());
